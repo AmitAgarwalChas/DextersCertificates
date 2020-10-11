@@ -3,4 +3,6 @@
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="splash_app_name">\t\t\t\tDexter\'s\nCertificates</string>
     <string name="splash_bottom_text">Making verified certificates has never been this EASY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
