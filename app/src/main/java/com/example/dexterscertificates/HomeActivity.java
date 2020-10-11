@@ -46,6 +46,14 @@ public class HomeActivity extends AppCompatActivity {
                 super.onPageScrollStateChanged(state);
             }
         });
+
+        setUpViewPager(viewPager);
+    }
+
+    private void setUpViewPager(ViewPager2 viewPager) {
+        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        adapter.addFragment(new Upload());
+        adapter.addFragment(new ProfileFragment());
     }
 
 
